@@ -1,0 +1,48 @@
+.rooms-container {
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rooms-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.room-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.room-image {
+    width: 100%;
+    border-radius: 8px;
+}
+.price{
+    color: orangered;
+}
+.room-card .status {
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.room-card .status .available {
+    color: green;
+}
+
+.room-card .status .booked {
+    color: red;
+}
+.room-button{
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,44 @@
+.rooms-preview {
+    padding: 20px;
+    text-align: center;
+    font-family: georgia,sans-serif;
+}
+
+.rooms-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.room-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    text-align: left;
+}
+
+.room-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.view-all-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.view-all-button:hover {
+    background-color: #0056b3;
+}
+.carousel-image {
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the image */
+    
+}

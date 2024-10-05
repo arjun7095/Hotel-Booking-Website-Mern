@@ -1,0 +1,29 @@
+.contact-us-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-top: 30px;
+}
+
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+iframe {
+    border: 0;
+    border-radius: 8px;
+}

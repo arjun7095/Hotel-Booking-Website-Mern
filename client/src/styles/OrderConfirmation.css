@@ -1,0 +1,52 @@
+.order-confirmation-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust this value if you have a fixed header/footer */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.checkmark-circle {
+    background-color: #4CAF50; /* Green background */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkmark-circle span {
+    color: white;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.order-confirmation-container h1 {
+    max-width: 80%;
+    margin: 0;
+}
+
+.back-to-menu-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-to-menu-button:hover {
+    background-color: #45a049;
+}
